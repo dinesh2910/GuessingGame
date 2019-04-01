@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6383EF122528C880087AFD2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6383EF022528C880087AFD2 /* DetailsViewController.swift */; };
+		B6383EF322528F110087AFD2 /* AboutAurthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6383EF222528F110087AFD2 /* AboutAurthorViewController.swift */; };
 		B65F71F1224DB1FF00EB335C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F71F0224DB1FF00EB335C /* AppDelegate.swift */; };
 		B65F71F3224DB1FF00EB335C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65F71F2224DB1FF00EB335C /* ViewController.swift */; };
 		B65F71F6224DB1FF00EB335C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65F71F4224DB1FF00EB335C /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B6383EF022528C880087AFD2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		B6383EF222528F110087AFD2 /* AboutAurthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAurthorViewController.swift; sourceTree = "<group>"; };
 		B65F71ED224DB1FF00EB335C /* GuessingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65F71F0224DB1FF00EB335C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B65F71F2224DB1FF00EB335C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				B65F71F0224DB1FF00EB335C /* AppDelegate.swift */,
 				B65F71F2224DB1FF00EB335C /* ViewController.swift */,
 				B65F71F4224DB1FF00EB335C /* Main.storyboard */,
+				B6383EF222528F110087AFD2 /* AboutAurthorViewController.swift */,
+				B6383EF022528C880087AFD2 /* DetailsViewController.swift */,
 				B65F71F7224DB20100EB335C /* Assets.xcassets */,
 				B65F71F9224DB20100EB335C /* LaunchScreen.storyboard */,
 				B65F71FC224DB20100EB335C /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6383EF322528F110087AFD2 /* AboutAurthorViewController.swift in Sources */,
 				B65F71F3224DB1FF00EB335C /* ViewController.swift in Sources */,
 				B65F71F1224DB1FF00EB335C /* AppDelegate.swift in Sources */,
+				B6383EF122528C880087AFD2 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EEGRNAPU89;
 				INFOPLIST_FILE = GuessingGame/Info.plist;
@@ -291,6 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GuessingGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EEGRNAPU89;
 				INFOPLIST_FILE = GuessingGame/Info.plist;
@@ -309,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.GuessingGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
